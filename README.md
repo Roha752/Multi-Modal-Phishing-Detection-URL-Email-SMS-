@@ -1,1 +1,2 @@
-# Multi-Modal-Phishing-Detection-URL-Email-SMS-
+Multi-Modal Phishing Detection (URL, Email, SMS)
+An end-to-end machine learning project that classifies URLs, emails, and SMS texts as phishing or legitimate. It uses a unified Hugging Face phishing dataset, TF-IDF text features, handcrafted URL features (length, entropy, IP presence, special characters), and a Random Forest classifier, with a Logistic Regression baseline for comparison.# Multi-Modal-Phishing-Detection-URL-Email-SMS-
