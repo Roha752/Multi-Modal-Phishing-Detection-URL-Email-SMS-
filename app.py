@@ -17,9 +17,10 @@ st.markdown("Detect phishing threats across **URLs, Emails, and SMS messages** u
 
 @st.cache_resource
 def load_models():
-    vec = joblib.load("tfidf_vectorizer.joblib")
-    clf = joblib.load("phishing_rf_model.joblib")
+    vec = joblib.load("tfidf_vectorizer (2).joblib")
+    clf = joblib.load("phishing_rf_model (1).joblib")
     return vec, clf
+
 
 def calc_entropy(s):
     if not s:
